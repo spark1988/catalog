@@ -1,0 +1,19 @@
+AddDefaultCharset utf-8
+
+# Запрет на просмотр листинга папкок
+Options -Indexes
+
+# Разрешение проходить по символическим ссылкам
+Options +FollowSymLinks
+
+# Включаем mod_rewrite
+RewriteEngine On
+
+# Если запрос идет не к реально существующему файлу
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Если запрос идет не к папке
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Тогда запрос идет на файл index.php
+RewriteRule .* index.php [L]
