@@ -1,0 +1,462 @@
+input {
+    .verdana;
+}
+.banner_busket {
+    border-left: 1px solid #C9CACE;
+    padding-left: 33px;
+    left: 802px;
+    position: absolute;
+    top: 20px;
+    width: 105px;
+    background: url("../img/icons/cart.png") no-repeat 8px 4px;
+
+    span {
+        font-family: Verdana, Geneva, sans-serif;
+        color: #9c9c9c;
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
+
+.banner_busket_link {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #0864a3;
+    font-size: 11px;
+    line-height: 13px;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.product_slide {
+    margin-bottom: 59px;
+
+    .category_list {
+
+        & > li {
+            .inlineblock;
+            margin-top: 0;
+            margin-right: 20px;
+            width: 130px;
+            border: 0 none;
+            padding-bottom: 0;
+        }
+    }
+
+    .category_list_show {
+        width: 130px;
+        margin-bottom: 2px;
+        margin-right: 0;
+    }
+
+    .category_show_full {
+        float: none;
+        margin-bottom: 7px;
+    }
+
+    .category_show_mini {
+        margin-left: 0;
+        width: 130px;
+    }
+
+    .category_mini_list li {
+        .inlineblock;
+        margin-bottom: 0;
+        margin-right: 1px;
+        vertical-align: top;
+    }
+
+    .category_list_descript {
+        display: block;
+        margin-bottom: 0px;
+        margin-right: 0;
+        overflow: hidden;
+        width: 130px;
+    }
+
+    .category_descript_wrap {
+        border: 0 none;
+        padding: 0;
+        min-height: auto;
+    }
+
+    .category_descript_title {
+        min-height: 92px;
+    }
+}
+
+.orange_title {
+    color: #fe7d18;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer{
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.jspPane{
+    position: absolute;
+}
+
+.jspVerticalBar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 100%;
+    background: red;
+}
+
+.jspHorizontalBar{
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: transparent;
+    border-bottom: 1px solid #d8d9df;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *{
+    margin: 0;
+    padding: 0;
+}
+
+.jspCap{
+    display: none;
+}
+
+.jspHorizontalBar .jspCap{
+    float: left;
+}
+
+.jspTrack{
+    background: transparent;
+    position: relative;
+}
+
+.jspDrag{
+    background: url("../img/decor/scroll.png") no-repeat center center;
+    position: relative;
+    height: 21px;
+    top: -8px;
+    left: 0;
+    cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+    float: left;
+    height: 100%;
+}
+
+.jspHorizontalBar .jspDrag {
+    height: 21px;
+}
+
+.jspCorner {
+    background: transparent;
+    float: left;
+    height: 100%;
+}
+
+.search_sec {
+    position: relative;
+    margin-bottom: 23px;
+    background: url("../img/bg/search_bg.png") no-repeat 0 0;
+    padding: 13px 4px 13px 14px;
+    margin-top: -11px;
+
+    .input_text_wrap {
+        padding-left: 30px;
+
+        input {
+            width: 555px;
+            color: #c3c2c2;
+        }
+    }
+
+    .search_ico {
+        .opacity(.3);
+    }
+
+    .search_submit {
+        margin-left: 5px
+    }
+}
+
+.search_all {
+    color: #9c9c9c;
+    .arial;
+    font-size: 11px;
+    padding-bottom: 3px;
+    line-height: 22px;
+    border-bottom: 1px solid #9c9c9c;
+    margin-bottom: 24px;
+}
+
+.search_results_list {
+    border-bottom: 1px solid #9c9c9c;
+    padding-bottom: 20px;
+    margin-bottom: 7px;
+
+    & >li {
+         margin-bottom: 14px;
+    }
+
+    p {
+        color: #666;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+.registr_sec {
+    margin-top: -10px;
+
+    .text_input .text_input_wrap input {
+        width: 281px;
+    }
+
+    .feedback_submit_block {
+        padding-top: 4px;
+    }
+}
+
+.blue_title {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #0b67a7;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.result_breadcrumb {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    font-style: italic;
+    margin-bottom: 4px;
+    color: #9b9c9c;
+
+    a {
+        color: #9b9c9c;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.register_required {
+    .arial;
+    font-size: 11px;
+    font-style: italic;
+    color: #9c9c9c;
+    margin-bottom: 8px;
+}
+
+.register_label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.register_text {
+    font-size: 12px;
+    line-height: 22px;
+    color: #8b8b8b;
+    .inlineblock;
+    width: 128px;
+    .verdana;
+}
+
+.site_map_sec {
+    padding-top: 4px;
+
+    &> ul >li {
+        margin-bottom: 8px;
+    }
+
+    .blue_title {
+        line-height: 20px;
+    }
+}
+
+.site_map_sub {
+   margin-left: 22px;
+
+    li {
+        line-height: 18px;
+    }
+
+   a {
+       color: #666;
+       .verdana;
+       font-size: 12px;
+       line-height: 14px;
+
+       &:hover {
+           text-decoration: none;
+       }
+   }
+}
+
+.error_sec {
+    margin-top: 30px;
+    border-top: 1px solid #c9cace;
+    padding-top: 21px;
+
+    .h1 {
+        line-height: 30px;
+        margin-bottom: 7px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 15px;
+        color: #666;
+    }
+
+    a {
+        color: #69945f;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .error_text {
+        color: #0b67a7;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 7px;
+    }
+}
+
+.authorize_popup {
+    width: 329px;
+
+    .fancy_title {
+        margin-bottom: 14px;
+    }
+
+    .register_text {
+        width: 62px;
+    }
+
+    .text_input .text_input_wrap input {
+        width: 184px;
+    }
+
+    .fancy_close {
+        right: 35px;
+        top: -2px;
+    }
+
+    .fancybox-close {
+        right: 17px;
+        top: 25px;
+    }
+}
+
+.authorize_top, .authorize_bottom {
+    background: url("../img/bg/fancy_autor.png") no-repeat 0 0;
+    height: 13px;
+}
+
+.authorize_bottom {
+    background-position: 0 100%;
+}
+
+.authorize_body {
+    position: relative;
+    padding: 0 16px 11px 17px;
+    background: url("../img/bg/fancy_autor_b.png") repeat-y 0 0;
+}
+
+.authorize_footer {
+    margin-left: 67px;
+    margin-top: -3px;
+}
+
+.authorize_remember, .authorize_register {
+    font-size: 11px;
+    .inlineblock;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+.authorize_register {
+    color: #8dbbdc;
+    margin-left: 5px;
+}
+
+.authorize_submit_btn {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 17px;
+    color: #0083c2;
+    padding-right: 10px;
+    background: url("../img/decor/big_blue_tr_right.png") no-repeat right 6px;
+}
+
+.authorize_submit_block {
+    input {
+        position: absolute;
+        left: -99999px;
+    }
+}
+
+.authorize_body_inner {
+    position: relative;
+    border-left: 1px solid #e3e4ea;
+    border-right: 1px solid #e3e4ea;
+    padding: 15px 0 11px 19px;
+}
+
+.authorize_inner_top, .authorize_inner_bottom {
+    background: url("../img/bg/fancy_autor_in.png") no-repeat 0 0;
+    position: absolute;
+    height: 6px;
+    left: -1px;
+    right: -1px;
+}
+
+.authorize_inner_top {
+    top: -6px;
+}
+
+.authorize_inner_bottom {
+    bottom: -6px;
+    background-position: 0 100%;
+}
+
+.authorize_submit_block {
+    padding-top: 10px;
+}
+
+.fansy_popup_cont {
+    display: none;
+}
+
+@import "mixins";

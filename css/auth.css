@@ -1,0 +1,21 @@
+.wrapper_auth {
+  background: #91B127;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 400px;
+  vertical-align: middle;
+  text-align: center;
+}
+.wrapper_auth:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 0;
+  vertical-align: middle;
+}
+.authorize_popup {
+  display: inline-block;
+}
